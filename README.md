@@ -2,7 +2,7 @@
 Learn to use Jekyll
 
 ## Install the Ruby in advance
-[Ruby download websit](https://rubyinstaller.org/downloads/)
+[Ruby download websit](https://rubyinstaller.org/downloads/) \
 ![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/307defdd-2ada-4421-affa-1dc244a09134)
 After installation, in CMD:
 ```
