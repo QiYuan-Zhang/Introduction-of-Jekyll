@@ -1,4 +1,4 @@
-# Introduction-of-Jekyll
+# Introduction of Jekyll
 Learn to use Jekyll
 
 ## Install the Ruby in advance
