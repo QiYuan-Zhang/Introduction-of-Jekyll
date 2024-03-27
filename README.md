@@ -18,9 +18,23 @@ jekyll -v                  # check if jekyll install sucessfully (show the versi
 
 # Usage
 
-## Start the server
+## Create a project 
 In CMD:
 ```
-cd myblog                  # to your dir
+jekyll new projectname     # creat a new jeklyll project
+cd projectdir              # to your dir where have the _config.yml file
 bundle exec jekyll serve   # Start the local server --> go to http://localhost:4000 in browser
+jekyll serve               # Same as last command
+```
+
+## Commonly used commands
+In CMD:
+```
+jekyll new PATH           # creat new project
+jekyll new PATH --blank   # create a new blank project
+jekyll build or jekyll b  # build project and generate _site dir
+jekyll serve or jekyll s  # build and run the project
+jekyll clean              # clean all the build object
+jekyll new-theme          # build a new theme
+jekyll doctor             # diagnosis, output disposed packages and problematic configs
 ```
