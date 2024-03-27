@@ -26,6 +26,7 @@ cd projectdir              # to your dir where have the _config.yml file
 bundle exec jekyll serve   # Start the local server --> go to http://localhost:4000 in browser
 jekyll serve               # Same as last command
 ```
+Go to: **http://localhost:4000 in browser**
 
 ## Commonly used commands
 In CMD:
