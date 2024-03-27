@@ -39,3 +39,16 @@ jekyll clean              # clean all the build object
 jekyll new-theme          # build a new theme
 jekyll doctor             # diagnosis, output disposed packages and problematic configs
 ```
+
+## Main directory
+- _config.yml: Jekyll site configuration file, contains global configuration, including collections, baseurl, etc.
+- _posts: save blog
+- _site: save static files after construction, including CSS, JS, and figure files saved in assets under _site
+- _data: save required data files for site
+- _drafts: blog draft, not be constructed in static files and not be public
+- _layouts：save layout files, the basic template of pages in site
+- _includes: save module files, used in multiple pages like sidebar, navigation, footer, etc.
+- about.md: content of About page. will be converted to html file and save under _site when constructing
+- index.md: content of Home page. will be converted to html file and save under _site when constructing
+- 404.html: content of 404 page.
+- .gitignore: files not be pushed in Git
