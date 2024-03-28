@@ -45,7 +45,7 @@ cd projectdir              # to your dir where have the _config.yml file
 bundle exec jekyll serve   # Start the local server (This will help ensure the proper Jekyll version is running.) 
 jekyll serve               # Start the local server 
 ```
-Go to: **http://localhost:4000 in browser**
+Go to: **http://localhost:4000** in browser
 > Note: if met problem shows lack of gem dependencies
 ```
 bundle install             # install required dependencies
