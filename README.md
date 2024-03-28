@@ -23,7 +23,7 @@ In CMD:
 gem install jekyll         # install jekyll
 jekyll -v                  # check if jekyll install sucessfully (show the version of jeklly)
 ```
-> Note: the jekyll version should be the same as github website support version if using github website, [Github config](https://pages.github.com/versions/)
+> Note: jekyll and Ruby version should be the same as github website support version if using github website, [Github config](https://pages.github.com/versions/)
 ```
 gem "jekyll", "~> 3.9.5"   # change the jekyll to specific version
 gem unistall jekyll        # uninstall jekyll
