@@ -9,11 +9,25 @@ After installation, in CMD:
 ```
 ruby -v or gem -v          # check if ruby install sucessfully (show the version of Ruby)
 ```
+
+## Install RubyGems
+[RubyGems download website](https://rubygems.org/pages/download)
+download ZIP files and in CMD:
+```
+cd RubyGems_file_dir      # change to the RubyGems file path
+ruby setup.rb             # install RubyGems
+```
+
 ## Install Jekyll
 In CMD:
 ```
 gem install jekyll         # install jekyll
 jekyll -v                  # check if jekyll install sucessfully (show the version of jeklly)
+```
+> Note: the jekyll version should be the same as github website support version if using github website, [Github config](https://pages.github.com/versions/)
+```
+gem "jekyll", "~> 3.9.5"   # change the jekyll to specific version
+gem unistall jekyll        # uninstall jekyll
 ```
 
 # Usage
@@ -27,6 +41,10 @@ bundle exec jekyll serve   # Start the local server --> go to http://localhost:4
 jekyll serve               # Same as last command
 ```
 Go to: **http://localhost:4000 in browser**
+> Note: if met problem shows lack of gem dependencies
+```
+bundle install             # install required dependencies
+```
 
 ## Commonly used commands
 In CMD:
