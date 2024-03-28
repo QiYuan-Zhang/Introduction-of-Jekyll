@@ -75,21 +75,21 @@ jekyll doctor             # diagnosis, output disposed packages and problematic 
 - index.md:    content of Home page. will be converted to html file and save under _site when constructing
 - 404.html:    content of 404 page.
 - .gitignore:  files not be pushed in Git
-- Gemfile: config of Gem, if using github website, set *gem "github-pages", group: :jekyll_plugins*
+- Gemfile: config of Gem, if using github website, set `gem "github-pages", group: :jekyll_plugins`
 
 # Possible problems
 
 ## Dependency Error:
 
 ![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/592b44e9-61d9-4346-b4a9-d118e36e991f) \
-Solution: Add ‘gem "jekyll-paginate"’ command in Gemfile
+Solution: Add `gem "jekyll-paginate"` command in Gemfile
 
 ## Version imcompatiable
 Solution: In Gemfile, change the `gem "jekyll", "~> 3.9.5"` to your own version
 
 ## Load error
 ![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/9571cb1f-48e0-477b-8f8f-5f29e953a415)\
-Solution: bundle add webrick
+Solution: `bundle add webrick`
 
 # Experience
 
