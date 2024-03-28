@@ -21,6 +21,7 @@ download ZIP files and in CMD:
 cd RubyGems_file_dir      # change to the RubyGems file path
 ruby setup.rb             # install RubyGems
 ```
+> Note: RubyGems only supports Ruby 3.0 or higher
 
 ## Install Jekyll
 In CMD:
