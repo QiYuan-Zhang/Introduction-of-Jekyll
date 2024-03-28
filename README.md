@@ -76,3 +76,22 @@ jekyll doctor             # diagnosis, output disposed packages and problematic 
 - 404.html:    content of 404 page.
 - .gitignore:  files not be pushed in Git
 - Gemfile: config of Gem, if using github website, set *gem "github-pages", group: :jekyll_plugins*
+
+# Possible problems
+
+## Dependency Error:
+
+![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/592b44e9-61d9-4346-b4a9-d118e36e991f) \
+Solution: Add ‘gem "jekyll-paginate"’ command in Gemfile
+
+## Version imcompatiable
+Solution: In Gemfile, change the ‘gem "jekyll", "~> 3.9.5"’ to your own version
+
+## Load error
+![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/9571cb1f-48e0-477b-8f8f-5f29e953a415)\
+Solution: bundle add webrick
+
+# Experience
+
+- Even though in [Github config](https://pages.github.com/versions/), the Ruby version is 2.7.4 which is very old, and can not set up RubyGems. But in practice, using the latest version Ruby is still ok. 
+- In my own case, even though do not change the 'gem "minima", "~> 2.5"' to 'gem "github-pages", group: :jekyll_plugins'. It can still build the pages sucessfully and shows the same as Github.
