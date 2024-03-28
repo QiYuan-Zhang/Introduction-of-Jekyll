@@ -75,3 +75,4 @@ jekyll doctor             # diagnosis, output disposed packages and problematic 
 - index.md:    content of Home page. will be converted to html file and save under _site when constructing
 - 404.html:    content of 404 page.
 - .gitignore:  files not be pushed in Git
+- Gemfile: config of Gem, if using github website, set *gem "github-pages", group: :jekyll_plugins*
