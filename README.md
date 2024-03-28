@@ -1,4 +1,4 @@
-# Introduction of Jekyll
+# Introduction to Jekyll
 Learn to use Jekyll
 
 # Installation
