@@ -2,6 +2,9 @@
 Learn to use Jekyll
 
 # Installation
+
+> Note: jekyll and Ruby version should be the same as github website support version if using github website, [Github config](https://pages.github.com/versions/)
+
 ## Install Ruby
 [Ruby download websit](https://rubyinstaller.org/downloads/) \
 After installation, in CMD:
