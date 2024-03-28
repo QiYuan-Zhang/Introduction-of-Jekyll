@@ -85,7 +85,7 @@ jekyll doctor             # diagnosis, output disposed packages and problematic 
 Solution: Add ‘gem "jekyll-paginate"’ command in Gemfile
 
 ## Version imcompatiable
-Solution: In Gemfile, change the ‘gem "jekyll", "~> 3.9.5"’ to your own version
+Solution: In Gemfile, change the `gem "jekyll", "~> 3.9.5"` to your own version
 
 ## Load error
 ![image](https://github.com/QiYuan-Zhang/Introduction-of-Jekyll/assets/53491122/9571cb1f-48e0-477b-8f8f-5f29e953a415)\
@@ -93,5 +93,5 @@ Solution: bundle add webrick
 
 # Experience
 
-- Even though in [Github config](https://pages.github.com/versions/), the Ruby version is 2.7.4 which is very old, and can not set up RubyGems. But in practice, using the latest version Ruby is still ok. 
-- In my own case, even though do not change the 'gem "minima", "~> 2.5"' to 'gem "github-pages", group: :jekyll_plugins'. It can still build the pages sucessfully and shows the same as Github.
+- Even in [Github config](https://pages.github.com/versions/), the Ruby version is 2.7.4 which is very old, and can not set up RubyGems. But in practice, using the latest version Ruby is still ok. 
+- In my own case, even though do not change the `gem "minima", "~> 2.5"` to `gem "github-pages", group: :jekyll_plugins`. It can still build the pages sucessfully and shows the same as Github.
